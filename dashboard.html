@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Task assignee</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="extensions-style.css">
+</head>
+
+<body>
+  <div class="extensions-wrapper">
+    <div class="assignee-page">
+      <div class="extensions-header">
+        <div class="header-lft">
+          <div class="header-logo">
+            <img src="images/logo-Original.png" alt="Logo">
+          </div>
+        </div>
+        <div class="header-rgt">
+          <a href="" id='logout' class="header-logout">Logout</a>
+        </div>
+      </div>
+      <div class="dashboard-title">
+        <div class="dashboard-lft">
+          <h1 class="dashboard-Yourname" id="dashboardYourname">Hello Anurag Yadav</h1>
+        </div>
+        <div class="dashboard-rgt">
+          <p class="dashboard-dateToday" id="dashboarddateToday">20 Sep 2023</p>
+        </div>
+      </div>
+      <div class="dashboard-swipe">
+        <div class="dashboard-swipein">
+          <button type="button" id="btn2" data-id="" data-type="SignIn" class="btn empsign text-white" >Sign In</button>
+          <span class="duration-divider"></span>
+          <a href="view-swipe.html" id="" class="view-swips">View Swipes</a>
+        </div>
+      </div>
+      <div class="dash-section-1">
+        <div class="dashboard-timer">
+          <div class="dashboard-timerin">
+            <input type="text" name="taskDesc" id="taskDesc" placeholder="(add task)">
+            <a href="task-assignee.html" class="start-timer-btn" id="addTask">Add Task</a>
+          </div>
+        </div>
+        <div class="dash-Title">
+          <h4>My Pending Task</h4>
+        </div>
+
+        <div class="homeTaskToday-Listing" id="homeTaskTodayListing">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- <script src="content.js"></script> -->
+
+  <script src="dashboard.js"></script>
+</body>
+
+</html>

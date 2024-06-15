@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>View Swipes</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="extensions-style.css">
+  <script src="jquery.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<div class="extensions-wrapper">
+  <div class="assignee-page">
+    <div class="extensions-header">
+      <div class="header-lft">
+        <div class="header-logo">
+          <img src="images/logo-Original.png" alt="Logo">
+        </div> 
+      </div> 
+      <div class="header-rgt">
+        <a href="dashboard.html" ><span class="header-back">Back</span></a>
+      </div>
+    </div>
+    <div class="swipe-title">
+      <h1 class="swipe-lable">Swipes</h1>
+      <p class="swipe-date" id="viewswipedateToday"></p>
+    </div>
+      <div class="swipes-section">
+        <table class="swipes-table">
+          <thead>
+            <tr>
+              <th>Swipe Time</th>
+              <th>In/Out</th>
+            </tr>
+          </thead>
+          <tbody id="swipeData">
+            <tr>
+              <td>20-9-2023</td>
+              <td>10:20</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+  </div>
+</div>
+<script type="text/javascript" src="view-swipe.js"></script>
+</body>
+</html>

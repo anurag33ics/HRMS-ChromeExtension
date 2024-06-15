@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Task assignee</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="extensions-style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="extensions-wrapper">
+  <div class="assignee-page">
+    <div class="extensions-header">
+      <div class="header-lft">
+        <div class="header-logo">
+          <img src="images/logo-Original.png" alt="Logo">
+        </div> 
+      </div> 
+      <div class="header-rgt">
+        <a href="dashboard.html" ><span class="header-back">Back</span></a>
+      </div>
+    </div>
+    <!-- <div class="duration">
+      <div class="duration-time">
+        <label class="duration-label">Start:</label>
+        <span class="ext-time-picker">
+          <input id="startTimePicker" class="ext-time-picker-input" autocomplete="off" type="text" placeholder="Select" value="15:45">
+        </span>
+        <span class="ext-time-today-label">
+          <span>Today</span>
+        </span>
+        <span class="duration-divider"></span>
+        <span class="ext-time-picker">
+          <input id="durationTimePicker" class="ext-time-picker-input" autocomplete="off" type="text" placeholder="Select" value="0:06">
+        </span>
+      </div>
+    </div> -->
+    <div>
+      Add Task
+    </div>
+    <div class="edit-form">
+      <div class="form-desc">
+        <label class="form-control">Task Title</label>
+        <textarea id="description" name="description" class="form-control" placeholder="Description"></textarea>
+      </div>
+      <div class="form-project">
+        <label class="form-control">Project </label>
+          <select class="form-control" id="project_id" name="project_id">
+            <option value="0">Select Project</option>
+          </select>
+      </div>
+      <div class="form-section">
+        <label class="form-control">Section </label>
+        <select class="form-control"  id="sectionId" name="sectionId">
+          <option value="0">Select Section</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label class="form-control">Due Date </label>
+        <input type="date" class="form-control"  id="last_date" name="last_date">
+      </div>
+      <div class="form-group">
+        <labelclass="form-control"  id="erro_msg" name="erro_msg"></label>
+      </div>
+      <div class="form-buttons">
+        <button class="btn-done" id="addtaskbtn">Add</button>
+        <!-- <button class="btn-delete">Delete</button> -->
+      </div>
+    </div>
+  </div>
+</div>
+<script type="text/javascript" src="task-assign.js"></script>
+</body>
+</html>

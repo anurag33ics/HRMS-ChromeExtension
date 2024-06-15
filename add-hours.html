@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Add Hours</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="extensions-style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="extensions-wrapper">
+  <div class="assignee-page">
+    <div class="extensions-header">
+      <div class="header-lft">
+        <div class="header-logo">
+          <img src="images/logo-Original.png" alt="Logo">
+        </div> 
+      </div> 
+      <div class="header-rgt">
+        <a href="dashboard.html" ><span class="header-back">Back</span></a>
+      </div>
+    </div>
+    <div class="edit-form">
+      <div class="form-desc">
+        <textarea id="description" type="text"  readonly class="form-control" placeholder="Description"></textarea>
+      </div>
+      <div class="form-desc">
+        <input type="text" pattern="[0-9]+(\.[0-9]{1,2})?%?" name="billable_hours" class="form-control"  id="billable_hours" placeholder="Enter billable hours">
+      </div>
+      <div class="form-desc">
+        <input type="text" pattern="[0-9]+(\.[0-9]{1,2})?%?" name="research_hours" class="form-control" id="research_hours" placeholder="Enter research hours">
+      </div>
+      <div class="form-buttons">
+        <button class="btn-done">Done</button>
+        <a href="dashboard" class="btn-delete">Cancel</a>
+      </div>
+    </div>
+  </div>
+</div>
+<script type="text/javascript" src="content.js"></script>
+</body>
+</html>
